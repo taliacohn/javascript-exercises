@@ -56,8 +56,7 @@ function playGame() {
         const humanChoice = getHumanChoice()
 
         playRound(humanChoice, computerChoice)
-        console.log(humanScore)
-        console.log(computerScore)
+        console.log(`Score — You: ${humanScore}, Computer: ${computerScore}`);
         gameRound ++
     }
 
